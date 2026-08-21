@@ -1,0 +1,33 @@
+{
+  "story_id": "story_panchatantra_monkey_wedge",
+  "language_code": "mr",
+  "duration_preset": "quick",
+  "voice_id": "mr-IN-AarohiNeural",
+  "total_duration_seconds": 114.94444444444443,
+  "chapters": [
+    {
+      "chapter_id": "ch_01",
+      "chapter_number": 1,
+      "title": "पहिला भाग: दुपारची विश्रांती आणि लाकडी पाचर",
+      "audio_file": "ch01.mp3",
+      "duration_seconds": 37.18518518518518,
+      "file_size_bytes": 271584
+    },
+    {
+      "chapter_id": "ch_02",
+      "chapter_number": 2,
+      "title": "दुसरा भाग: खोडकर माकडाचे अजब कौतुक",
+      "audio_file": "ch02.mp3",
+      "duration_seconds": 35.33333333333333,
+      "file_size_bytes": 248544
+    },
+    {
+      "chapter_id": "ch_03",
+      "chapter_number": 3,
+      "title": "तिसरा भाग: नाहक हस्तक्षेपाचे फळ आणि बोध",
+      "audio_file": "ch03.mp3",
+      "duration_seconds": 42.425925925925924,
+      "file_size_bytes": 284256
+    }
+  ]
+}

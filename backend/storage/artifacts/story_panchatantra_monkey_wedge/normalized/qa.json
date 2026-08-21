@@ -1,0 +1,15 @@
+{
+  "stage": "source",
+  "passed": true,
+  "score": 0.8,
+  "issues": [
+    {
+      "stage": "source",
+      "severity": "WARNING",
+      "code": "VERY_SHORT_SOURCE",
+      "message": "Source is very short (1 words).",
+      "context": null
+    }
+  ],
+  "summary": "Source QA evaluated: 1 segments, 1 words."
+}

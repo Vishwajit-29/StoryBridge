@@ -1,0 +1,15 @@
+{
+  "stage": "story_graph",
+  "passed": true,
+  "score": 1.0,
+  "issues": [
+    {
+      "stage": "story_graph",
+      "severity": "INFO",
+      "code": "ORPHANED_ENTITIES",
+      "message": "2 entities have no relationships.",
+      "context": null
+    }
+  ],
+  "summary": "Story Graph QA: 4 entities, 5 events."
+}

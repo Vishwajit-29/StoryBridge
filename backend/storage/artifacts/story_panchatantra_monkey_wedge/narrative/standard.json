@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "story_id": "story_panchatantra_monkey_wedge",
+  "duration_preset": "standard",
+  "title": "The Monkey and the Wedge",
+  "tagline": "A timeless Panchatantra fable on the perilous price of foolish curiosity.",
+  "synopsis": "When an overcurious monkey meddles with a master carpenter's wedge in a split timber log, he discovers why one should never tamper with forces they do not comprehend.",
+  "chapters": [
+    {
+      "chapter_id": "ch_01",
+      "chapter_number": 1,
+      "title": "The Timber in the Sun",
+      "content": "In the outskirts of an ancient city, amidst the fragrant shade of mango groves, artisans were building a magnificent stone temple. Every morning, masons chipped granite while master carpenters shaped colossal timber logs to support the sanctum's vaulted roof.\n\nAt the center of the clearing lay a colossal log of seasoned sal wood. A skilled master carpenter had been sawing it directly down the middle. When the midday sun reached its zenith and the bell rang for the lunch feast, the artisan paused. To prevent the freshly split halves of the log from snapping shut and pinching his saw blade, he hammered a thick, sturdy wooden wedge firmly into the cleft before heading into town.",
+      "word_count": 115,
+      "estimated_duration_seconds": 53,
+      "event_ids": [
+        "ev_01",
+        "ev_02"
+      ],
+      "character_ids": [
+        "char_carpenter"
+      ]
+    },
+    {
+      "chapter_id": "ch_02",
+      "chapter_number": 2,
+      "title": "The Fatal Curiosity",
+      "content": "No sooner had the human footsteps faded into the distance than the temple grove came alive with mischievous chatter. A large troop of monkeys bounded down from the canopy, leaping across scaffolds, tossing wood shavings, and inspecting the craftsmen's tools.\n\nAmong them was a young, reckless monkey who prided himself on cleverness. He leaped onto the massive split timber and noticed the wooden wedge wedged between the two halves. 'What a strange toy,' he thought. Without understanding the colossal mechanical tension held within the split wood, he straddled the deep cleft and began violently tugging at the wedge.",
+      "word_count": 98,
+      "estimated_duration_seconds": 45,
+      "event_ids": [
+        "ev_03",
+        "ev_04"
+      ],
+      "character_ids": [
+        "char_monkey",
+        "obj_wedge"
+      ]
+    },
+    {
+      "chapter_id": "ch_03",
+      "chapter_number": 3,
+      "title": "The Snapped Cleft",
+      "content": "Back and forth, side to side, the restless monkey wriggled the stubborn wedge with all his might. Slowly, the wooden block loosened. With one triumphant jerk, the monkey wrenched the wedge completely free!\n\nIn a fraction of a second, the stored tension released with a thunderous crack! The two massive halves of the log slammed together like an iron jaw, instantly trapping the foolish monkey.\n\nWhen the artisans returned, the senior carpenter shook his head and remarked: 'Those who meddle in affairs that do not concern them inevitably invite their own undoing.'",
+      "word_count": 92,
+      "estimated_duration_seconds": 42,
+      "event_ids": [
+        "ev_04",
+        "ev_05"
+      ],
+      "character_ids": [
+        "char_carpenter",
+        "char_monkey"
+      ]
+    }
+  ],
+  "total_word_count": 305,
+  "estimated_total_duration_seconds": 140,
+  "model_metadata": {
+    "provider": "MockLLMProvider",
+    "model": "unknown"
+  }
+}

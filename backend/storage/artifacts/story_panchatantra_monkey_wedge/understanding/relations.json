@@ -1,0 +1,10 @@
+[
+  {
+    "id": "rel_01",
+    "source_entity_id": "char_monkey",
+    "target_entity_id": "char_carpenter",
+    "relation_type": "intrudes_on",
+    "description": "The monkey trespasses on the carpenter's deserted workstation.",
+    "source_segment_ids": []
+  }
+]

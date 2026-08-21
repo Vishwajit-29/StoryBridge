@@ -1,0 +1,59 @@
+[
+  {
+    "id": "char_monkey",
+    "name": "Curious Monkey",
+    "type": "character",
+    "aliases": [
+      "Mischievous Monkey",
+      "Vanara"
+    ],
+    "description": "An inquisitive and restless young monkey who cannot resist tampering with things.",
+    "importance_score": 0.95,
+    "source_segment_ids": [
+      "seg_0002",
+      "seg_0003"
+    ]
+  },
+  {
+    "id": "char_carpenter",
+    "name": "Master Carpenter",
+    "type": "character",
+    "aliases": [
+      "Artisan",
+      "Woodworker"
+    ],
+    "description": "An experienced temple artisan who hammers a wedge into a split timber log before lunch.",
+    "importance_score": 0.85,
+    "source_segment_ids": [
+      "seg_0001",
+      "seg_0004"
+    ]
+  },
+  {
+    "id": "loc_temple_site",
+    "name": "Temple Construction Grove",
+    "type": "location",
+    "aliases": [
+      "Building Site"
+    ],
+    "description": "The clearing on the outskirts of an ancient city where the temple is being built.",
+    "importance_score": 0.7,
+    "source_segment_ids": [
+      "seg_0001"
+    ]
+  },
+  {
+    "id": "obj_wedge",
+    "name": "Wooden Wedge",
+    "type": "object",
+    "aliases": [
+      "Timber Wedge"
+    ],
+    "description": "A sturdy wooden wedge placed inside the saw cut of a heavy timber log to keep it open.",
+    "importance_score": 0.9,
+    "source_segment_ids": [
+      "seg_0001",
+      "seg_0003"
+    ]
+  }
+]

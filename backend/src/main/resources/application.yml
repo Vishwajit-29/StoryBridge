@@ -1,0 +1,57 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: storybridge-backend
+  
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:h2:mem:storybridgedb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE}
+    username: ${SPRING_DATASOURCE_USERNAME:sa}
+    password: ${SPRING_DATASOURCE_PASSWORD:}
+    driver-class-name: ${SPRING_DATASOURCE_DRIVER:org.h2.Driver}
+  
+  jpa:
+    database-platform: ${JPA_DATABASE_PLATFORM:org.hibernate.dialect.H2Dialect}
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USER:guest}
+    password: ${RABBITMQ_PASS:guest}
+
+# Custom StoryBridge Properties
+storybridge:
+  jwt:
+    secret: ${JWT_SECRET:storybridge_super_secret_jwt_key_that_is_at_least_256_bits_long_2026_spring_boot}
+    expiration-ms: 86400000 # 24 hours
+  
+  ai-engine:
+    base-url: ${AI_ENGINE_URL:http://localhost:8000}
+
+  storage:
+    type: ${STORAGE_TYPE:local} # local or minio
+    local-root-path: ${STORAGE_ROOT_PATH:../storage/artifacts}
+    minio:
+      endpoint: ${MINIO_ENDPOINT:http://localhost:9000}
+      access-key: ${MINIO_ROOT_USER:minioadmin}
+      secret-key: ${MINIO_ROOT_PASSWORD:minioadmin}
+      bucket: ${MINIO_BUCKET:storybridge-artifacts}
+
+logging:
+  level:
+    com.storybridge: INFO
+    org.springframework.security: WARN

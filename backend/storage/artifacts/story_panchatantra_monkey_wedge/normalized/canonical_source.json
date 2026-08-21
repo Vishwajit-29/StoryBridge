@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "id": "story_panchatantra_monkey_wedge",
+    "type": "text",
+    "title": "The Monkey and the Wedge",
+    "author": "Vishnu Sharma",
+    "language": "en",
+    "checksum_sha256": "1588fedc7befbb50aa27dafc1ed6c61e4ef029ebffa0fd08fd8390fc62bf00d7",
+    "original_filename": null,
+    "rights": {
+      "type": "PUBLIC_DOMAIN",
+      "verified": true,
+      "evidence_url_or_note": null,
+      "attribution": null,
+      "license_identifier": "CC0 / Public Domain"
+    }
+  },
+  "segments": [
+    {
+      "id": "seg_0001",
+      "sequence": 1,
+      "chapter": "Introduction",
+      "scene_id": null,
+      "start_ms": null,
+      "end_ms": null,
+      "speaker": null,
+      "text": "shared/fixtures/the_monkey_and_the_wedge.md",
+      "source_ref": {
+        "page": null,
+        "chapter": "Introduction",
+        "paragraph_index": 0,
+        "url": null,
+        "timestamp_ms": null
+      }
+    }
+  ],
+  "extraction_warnings": [],
+  "total_characters": 43,
+  "total_words": 1
+}

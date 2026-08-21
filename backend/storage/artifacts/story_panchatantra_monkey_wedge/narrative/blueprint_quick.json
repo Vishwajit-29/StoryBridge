@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "story_id": "story_panchatantra_monkey_wedge",
+  "duration_preset": "quick",
+  "target_duration_minutes": 5,
+  "target_word_count": 650,
+  "sections": [
+    {
+      "section_id": "sec_01",
+      "title": "The Master Carpenter and the Wedge",
+      "required_event_ids": [
+        "ev_01",
+        "ev_02"
+      ],
+      "featured_entity_ids": [
+        "char_carpenter",
+        "loc_temple_site",
+        "obj_wedge"
+      ],
+      "key_plot_points": [
+        "Temple construction setup",
+        "Carpenter splits timber",
+        "Workers leave for lunch"
+      ],
+      "emotional_tone": "Peaceful and industrious",
+      "target_words": 300
+    },
+    {
+      "section_id": "sec_02",
+      "title": "The Intrusion of Curiosity",
+      "required_event_ids": [
+        "ev_03",
+        "ev_04"
+      ],
+      "featured_entity_ids": [
+        "char_monkey",
+        "obj_wedge"
+      ],
+      "key_plot_points": [
+        "Monkeys roam the site",
+        "Inquisitive monkey targets the wedge",
+        "Wedge pulled and log snaps shut"
+      ],
+      "emotional_tone": "Tense and cautionary",
+      "target_words": 350
+    },
+    {
+      "section_id": "sec_03",
+      "title": "The Price of Meddling",
+      "required_event_ids": [
+        "ev_05"
+      ],
+      "featured_entity_ids": [
+        "char_carpenter",
+        "char_monkey"
+      ],
+      "key_plot_points": [
+        "Artisans discover the trapped monkey",
+        "Wise elder shares the moral"
+      ],
+      "emotional_tone": "Reflective and profound",
+      "target_words": 200
+    }
+  ],
+  "required_event_ids": [
+    "ev_01",
+    "ev_02",
+    "ev_03",
+    "ev_04",
+    "ev_05"
+  ],
+  "excluded_event_ids": [],
+  "ending_state": "The monkey learns a harsh lesson, and the artisans impart timeless wisdom."
+}

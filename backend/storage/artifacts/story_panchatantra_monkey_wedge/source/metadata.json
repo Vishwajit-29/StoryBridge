@@ -1,0 +1,16 @@
+{
+  "id": "story_panchatantra_monkey_wedge",
+  "type": "text",
+  "title": "The Monkey and the Wedge",
+  "author": "Vishnu Sharma",
+  "language": "en",
+  "checksum_sha256": "1588fedc7befbb50aa27dafc1ed6c61e4ef029ebffa0fd08fd8390fc62bf00d7",
+  "original_filename": null,
+  "rights": {
+    "type": "PUBLIC_DOMAIN",
+    "verified": true,
+    "evidence_url_or_note": null,
+    "attribution": null,
+    "license_identifier": "CC0 / Public Domain"
+  }
+}

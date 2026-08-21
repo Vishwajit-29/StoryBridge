@@ -1,0 +1,36 @@
+{
+  "story_id": "story_panchatantra_monkey_wedge",
+  "language_code": "hi",
+  "duration_preset": "standard",
+  "voice_id": "hi-IN-SwaraNeural",
+  "total_duration_seconds": 116.72222222222221,
+  "chapters": [
+    {
+      "chapter_id": "ch_01",
+      "chapter_number": 1,
+      "title": "पहला अध्याय: दोपहर का विराम",
+      "audio_file": "ch01.mp3",
+      "storage_path": "storage/artifacts/story_panchatantra_monkey_wedge/audio/hi/standard/ch01.mp3",
+      "duration_seconds": 40.425925925925924,
+      "file_size_bytes": 227664
+    },
+    {
+      "chapter_id": "ch_02",
+      "chapter_number": 2,
+      "title": "दूसरा अध्याय: नासमझी और कौतूहल",
+      "audio_file": "ch02.mp3",
+      "storage_path": "storage/artifacts/story_panchatantra_monkey_wedge/audio/hi/standard/ch02.mp3",
+      "duration_seconds": 33.48148148148148,
+      "file_size_bytes": 197712
+    },
+    {
+      "chapter_id": "ch_03",
+      "chapter_number": 3,
+      "title": "तीसरा अध्याय: कर्म का फल और सीख",
+      "audio_file": "ch03.mp3",
+      "storage_path": "storage/artifacts/story_panchatantra_monkey_wedge/audio/hi/standard/ch03.mp3",
+      "duration_seconds": 42.81481481481481,
+      "file_size_bytes": 238320
+    }
+  ]
+}

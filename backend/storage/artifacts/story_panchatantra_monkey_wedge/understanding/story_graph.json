@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "story_id": "story_panchatantra_monkey_wedge",
+  "title": "The Monkey and the Wedge",
+  "summary": "A curious monkey meddles with a split wooden log at a temple construction site and gets trapped when he dislodges the wedge.",
+  "entities": [
+    {
+      "id": "char_monkey",
+      "name": "Curious Monkey",
+      "type": "character",
+      "aliases": [
+        "Mischievous Monkey",
+        "Vanara"
+      ],
+      "description": "An inquisitive and restless young monkey who cannot resist tampering with things.",
+      "importance_score": 0.95,
+      "source_segment_ids": [
+        "seg_0002",
+        "seg_0003"
+      ]
+    },
+    {
+      "id": "char_carpenter",
+      "name": "Master Carpenter",
+      "type": "character",
+      "aliases": [
+        "Artisan",
+        "Woodworker"
+      ],
+      "description": "An experienced temple artisan who hammers a wedge into a split timber log before lunch.",
+      "importance_score": 0.85,
+      "source_segment_ids": [
+        "seg_0001",
+        "seg_0004"
+      ]
+    },
+    {
+      "id": "loc_temple_site",
+      "name": "Temple Construction Grove",
+      "type": "location",
+      "aliases": [
+        "Building Site"
+      ],
+      "description": "The clearing on the outskirts of an ancient city where the temple is being built.",
+      "importance_score": 0.7,
+      "source_segment_ids": [
+        "seg_0001"
+      ]
+    },
+    {
+      "id": "obj_wedge",
+      "name": "Wooden Wedge",
+      "type": "object",
+      "aliases": [
+        "Timber Wedge"
+      ],
+      "description": "A sturdy wooden wedge placed inside the saw cut of a heavy timber log to keep it open.",
+      "importance_score": 0.9,
+      "source_segment_ids": [
+        "seg_0001",
+        "seg_0003"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ev_01",
+      "sequence": 1,
+      "title": "Carpenter splits log and places wedge",
+      "description": "The carpenter saws the log down the center and places a wooden wedge to prevent the cleft from closing.",
+      "chronological_order": 1,
+      "participant_entity_ids": [],
+      "location_entity_id": null,
+      "source_segment_ids": [],
+      "plot_relevance": 0.9,
+      "character_relevance": 0.7,
+      "causal_relevance": 0.95,
+      "emotional_relevance": 0.4,
+      "mystery_relevance": 0.1,
+      "importance_score": 0.718,
+      "is_spoiler": false,
+      "is_crucial": true
+    },
+    {
+      "id": "ev_02",
+      "sequence": 2,
+      "title": "Monkeys enter construction site",
+      "description": "When the workers leave for their midday meal, a band of monkeys descends from the trees to explore.",
+      "chronological_order": 2,
+      "participant_entity_ids": [],
+      "location_entity_id": null,
+      "source_segment_ids": [],
+      "plot_relevance": 0.75,
+      "character_relevance": 0.8,
+      "causal_relevance": 0.85,
+      "emotional_relevance": 0.5,
+      "mystery_relevance": 0.1,
+      "importance_score": 0.682,
+      "is_spoiler": false,
+      "is_crucial": true
+    },
+    {
+      "id": "ev_03",
+      "sequence": 3,
+      "title": "Monkey sits on cleft and pulls wedge",
+      "description": "The curious monkey sits astride the cleft and violently yanks the wedge out of the log.",
+      "chronological_order": 3,
+      "participant_entity_ids": [],
+      "location_entity_id": null,
+      "source_segment_ids": [],
+      "plot_relevance": 0.95,
+      "character_relevance": 0.95,
+      "causal_relevance": 0.98,
+      "emotional_relevance": 0.9,
+      "mystery_relevance": 0.3,
+      "importance_score": 0.885,
+      "is_spoiler": true,
+      "is_crucial": true
+    },
+    {
+      "id": "ev_04",
+      "sequence": 4,
+      "title": "Log snaps shut and traps monkey",
+      "description": "The log snaps shut with tremendous force, trapping the foolish monkey.",
+      "chronological_order": 4,
+      "participant_entity_ids": [],
+      "location_entity_id": null,
+      "source_segment_ids": [],
+      "plot_relevance": 0.95,
+      "character_relevance": 0.9,
+      "causal_relevance": 0.95,
+      "emotional_relevance": 0.9,
+      "mystery_relevance": 0.2,
+      "importance_score": 0.858,
+      "is_spoiler": true,
+      "is_crucial": true
+    },
+    {
+      "id": "ev_05",
+      "sequence": 5,
+      "title": "Artisans return and impart wisdom",
+      "description": "The carpenters return and deliver the moral on not meddling with unfamiliar forces.",
+      "chronological_order": 5,
+      "participant_entity_ids": [],
+      "location_entity_id": null,
+      "source_segment_ids": [],
+      "plot_relevance": 0.8,
+      "character_relevance": 0.8,
+      "causal_relevance": 0.7,
+      "emotional_relevance": 0.8,
+      "mystery_relevance": 0.1,
+      "importance_score": 0.705,
+      "is_spoiler": false,
+      "is_crucial": true
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel_01",
+      "source_entity_id": "char_monkey",
+      "target_entity_id": "char_carpenter",
+      "relation_type": "intrudes_on",
+      "description": "The monkey trespasses on the carpenter's deserted workstation.",
+      "source_segment_ids": []
+    }
+  ],
+  "causal_links": [
+    {
+      "cause_event_id": "ev_01",
+      "effect_event_id": "ev_02",
+      "link_type": "enables",
+      "explanation": null
+    },
+    {
+      "cause_event_id": "ev_02",
+      "effect_event_id": "ev_03",
+      "link_type": "enables",
+      "explanation": null
+    },
+    {
+      "cause_event_id": "ev_03",
+      "effect_event_id": "ev_04",
+      "link_type": "causes",
+      "explanation": null
+    },
+    {
+      "cause_event_id": "ev_04",
+      "effect_event_id": "ev_05",
+      "link_type": "triggers",
+      "explanation": null
+    }
+  ],
+  "timeline": [
+    {
+      "event_id": "ev_01",
+      "narrative_order": 1,
+      "story_chronology_order": 1,
+      "is_flashback": false,
+      "is_parallel": false
+    },
+    {
+      "event_id": "ev_02",
+      "narrative_order": 2,
+      "story_chronology_order": 2,
+      "is_flashback": false,
+      "is_parallel": false
+    },
+    {
+      "event_id": "ev_03",
+      "narrative_order": 3,
+      "story_chronology_order": 3,
+      "is_flashback": false,
+      "is_parallel": false
+    },
+    {
+      "event_id": "ev_04",
+      "narrative_order": 4,
+      "story_chronology_order": 4,
+      "is_flashback": false,
+      "is_parallel": false
+    },
+    {
+      "event_id": "ev_05",
+      "narrative_order": 5,
+      "story_chronology_order": 5,
+      "is_flashback": false,
+      "is_parallel": false
+    }
+  ],
+  "themes": [
+    "Curiosity vs Caution",
+    "Unintended Consequences",
+    "Wisdom & Prudence"
+  ],
+  "model_metadata": {
+    "provider": "MockLLMProvider",
+    "model": "unknown",
+    "total_source_words": 1
+  }
+}
